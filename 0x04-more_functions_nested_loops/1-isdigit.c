@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if a characters is digit
- * @c: character to be checked
- * Return: 1 for acharacter that will be a digit or 0 for any else
+ * _isdigit - checks whether a character is a digit or not
+ * @c: tested character
+ * Return: 1 if it is, 0 otherwise
  */
 
 int _isdigit(int c)
