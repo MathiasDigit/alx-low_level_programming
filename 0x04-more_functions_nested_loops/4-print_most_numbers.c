@@ -2,7 +2,8 @@
 
 /**
  * print_most_numbers - prints numbers except 2 and 4
- * Return: returns nothing
+ * Description: prints the numbers excluding 2 and 4
+ * Return: The numbers since 0 up to 9
  */
 
 void print_most_numbers(void)
@@ -18,6 +19,7 @@ void print_most_numbers(void)
 			continue;
 
 		}
+
 		else
 		{
 
@@ -25,6 +27,6 @@ void print_most_numbers(void)
 
 		}
 	}
-		_putchar('\n');
+	_putchar('\n');
 }
 	
