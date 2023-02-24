@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - function that print all numbers from 0 to 9
+ * print_numbers - print the numbers since 0 up to 9
  * Return: The numbers since 0 up to 9
  */
 
@@ -13,7 +13,7 @@ void print_numbers(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-	   _putchar(n + '0');
+	       	_putchar(n + '0');
 	}
 	_putchar('\n');
 }
